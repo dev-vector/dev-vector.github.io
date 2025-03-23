@@ -994,6 +994,11 @@ footer {
     max-width: 750px;
     margin: 0px 20px;
   }
+  .main-header__info-container {
+    h1 {
+      margin: 0 auto.
+    }
+  }
 }
 
 @media (max-width: 760px) {
