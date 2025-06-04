@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Digital Agency</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone = no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preload" href="fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="icon" type="image/gif" href="img/icon.png" />
+	<!-- Иконка для сайта в браузере -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="body__wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__wrapper">
+					<div class="header__logo">
+						<p>mycompany</p>
+					</div>
+					<nav class="header__menu">
+						<button class="header__menu-burger" id="menu" aria-label="Toggle menu" aria-expanded="false">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line class="burger-line top-line" x1="3" y1="6" x2="21" y2="6" />
+								<line class="burger-line middle-line" x1="3" y1="12" x2="21" y2="12" />
+								<line class="burger-line bottom-line" x1="3" y1="18" x2="21" y2="18" />
+							</svg>
+							<span class="visually-hidden">Menu</span>
+						</button>
+						<ul class="topnav" id="myTopnav">
+							<li class="topnav__link"><a href="#">HOME</a></li>
+							<li class="topnav__link"><a href="#about">ABOUT</a></li>
+							<li class="topnav__link"><a href="#services">SERVICES</a></li>
+							<li class="topnav__link"><a href="#portfolio">PORTFOLIO</a></li>
+							<li class="topnav__link"><a href="#testimonials">TESTIMONIALS</a></li>
+							<li class="topnav__link"><a href="#contact">CONTACT</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="main container">
+			<!-- <Баннер> -->
+			<section class="welcome section-background">
+				<div class="welcome__wrapper">
+					<h1 class="welcome__title">WELCOME ON <span class="welcome__highlight highlight">MYCOMPANY</span></h1>
+					<p class="welcome__slogan">We are a digital agency with <span
+							class="welcome__slogan-highlight highlight">
+							years of
+							experience</span>
+						and with <span class="welcome__slogan-highlight highlight">extraordinary people</span></p>
+				</div>
+			</section>
+
+			<!-- <О нас> -->
+			<section id="about" class="about">
+				<div class="about__wrapper">
+					<div class="about__image">
+						<img class="mw-100" src="img/mac.png" alt="mac computer">
+					</div>
+					<div class="about__content">
+						<h2 class="about__title">Some words <span class="line highlight">about us</span></h2>
+						<p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex
+							quidem maiores ullam quis,
+							at asperiores minus ad eaque maxime possimus. orem ipsum dolor sit amet, consectetur adipisicing
+							elit.
+						</p>
+						<ul class="about__list">
+							<li class="about__item"><span class="item__highlight highlight">Mission -</span>We deliver
+								uniqueness and
+								quality
+							</li>
+							<li class="about__item"><span class="item__highlight highlight">Skills -</span>Delivering fast
+								and
+								excellent
+								results
+							</li>
+							<li class="about__item"><span class="item__highlight highlight">Clients -</span>Satisfied
+								clients
+								thanks to
+								our
+								experience</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- <ТИМА> -->
+			<section class="team section-background">
+				<div class="team__wrapper">
+					<h2 class="team__title title-main">Our team</h2>
+					<div class="team__cards-container">
+
+						<div class="team__card">
+							<img class="team__card-photo" src="img/teams/designer.jpg" alt="Mary Wolf">
+							<h4 class="team__card-name">Mary Wolf</h4>
+							<p class="team__card-role">Designer</p>
+							<p class="team__card-description">Do not seek to change what has come before. Seek to create that
+								which
+								has
+								not.</p>
+						</div>
+						<div class="team__card">
+							<img class="team__card-photo" src="img/teams/manager.jpg" alt="Bogdan Makarov">
+							<h4 class="team__card-name">Bogdan Makarov</h4>
+							<p class="team__card-role">Manager</p>
+							<p class="team__card-description">Do not seek to change what has come before. Seek to create that
+								which
+								has
+								not.</p>
+						</div>
+						<div class="team__card">
+							<img class="team__card-photo" src="img/teams/copywriter.jpg" alt="Pavel Konov">
+							<h4 class="team__card-name">Pavel Konov</h4>
+							<p class="team__card-role">Copywriter</p>
+							<p class="team__card-description">Do not seek to change what has come before. Seek to create that
+								which
+								has
+								not.</p>
+						</div>
+						<div class="team__card">
+							<img class="team__card-photo" src="img/teams/seo.jpg" alt="Max Belov">
+							<h4 class="team__card-name">Max Belov</h4>
+							<p class="team__card-role">SEO</p>
+							<p class="team__card-description">Do not seek to change what has come before. Seek to create that
+								which
+								has
+								not.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- <Услуги> -->
+			<section id="services" class="services">
+				<div class="services__wrapper">
+					<h2 class="services__title title-main">Our services</h2>
+					<p class="services__description services__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit. Doloribus ex
+						quidem maiores ullam quis, at
+						asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa
+						tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam
+						quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa
+						tenetur.</p>
+
+					<div class="services__cards-container">
+						<div class="services__card">
+							<img class="services__card-image" src="img/web_des.png" alt="web design">
+							<h4 class="services__card-title">web design</h4>
+							<p class="services__card-description services__paragraph">The first line of Lorem Ipsum, "Lorem
+								ipsum dolor sit
+								amet..",
+								comes from a line in section
+								1.10.32.</p>
+						</div>
+						<div class="services__card">
+							<img class="services__card-image" src="img/mobile_apps.png" alt="mobile apps">
+							<h4 class="services__card-title">mobile apps</h4>
+							<p class="services__card-description services__paragraph">The first line of Lorem Ipsum, "Lorem
+								ipsum dolor sit
+								amet..",
+								comes from a line in section
+								1.10.32.</p>
+						</div>
+						<div class="services__card">
+							<img class="services__card-image" src="img/photo.png" alt="photography">
+							<h4 class="services__card-title">photography</h4>
+							<p class="services__card-description services__paragraph">The first line of Lorem Ipsum, "Lorem
+								ipsum dolor sit
+								amet..",
+								comes from a line in section
+								1.10.32.</p>
+						</div>
+						<div class="services__card">
+							<img class="services__card-image" src="img/market.png" alt="marketing">
+							<h4 class="services__card-title">marketing</h4>
+							<p class="services__card-description services__paragraph">The first line of Lorem Ipsum, "Lorem
+								ipsum dolor sit
+								amet..",
+								comes from a line in section
+								1.10.32.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- <Клиенты> -->
+			<section class="clients section-background">
+				<div class="clients__wrapper">
+					<h2 class="clients__title title-main">Some of our clients</h2>
+					<div class="clients__logo-container">
+						<img class="clients__logo" src="img/clients/chanel-logo.png" alt="Chanel logo">
+						<img class="clients__logo" src="img/clients/zara-logo.png" alt="Zara logo">
+						<img class="clients__logo" src="img/clients/guerlain-logo.png" alt="Guerlain logo">
+						<img class="clients__logo" src="img/clients/lancome-logo.png" alt="Lancôme logo">
+						<img class="clients__logo" src="img/clients/lacoste-logo.png" alt="Lacoste logo">
+					</div>
+				</div>
+			</section>
+
+			<!-- <Портфолио> -->
+			<section id="portfolio" class="portfolio">
+				<div class="portfolio__wrapper">
+					<h2 class="portfolio__title title-main">Take a look at our work</h2>
+					<p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex
+						quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
+						excepturi porro ipsa tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex
+						quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
+						excepturi porro ipsa tenetur.</p>
+					<div class="portfolio__gallery">
+						<div class="portfolio__gallery-line">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-1.jpg" alt="Project 1">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-1.jpg" alt="Project 2">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-1.jpg" alt="Project 3">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-1.jpg" alt="Project 4">
+						</div>
+						<div class="portfolio__gallery-line">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-2.jpg" alt="Project 5">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-2.jpg" alt="Project 6">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-2.jpg" alt="Project 7">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-2.jpg" alt="Project 8">
+						</div>
+						<div class="portfolio__gallery-line">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-3.jpg" alt="Project 9">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-3.jpg" alt="Project 10">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-3.jpg" alt="Project 11">
+							<img class="portfolio__gallery-image" src="img/portfolio/proj-3.jpg" alt="Project 12">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- <Отзывы> -->
+			<section id="testimonials" class="testimonials section-background">
+				<div class="testimonials__wrapper">
+					<h2 class="testimonials__title title-main">Our clients’ testimonials</h2>
+
+					<!-- -- Слайдер-Свиппер -->
+					<div class="testimonials__carousel swiper">
+						<div class="testimonials__items swiper-wrapper">
+							<div class="testimonials__item swiper-slide">
+								<p class="testimonials__review">This book is a treatise on the theory of ethics, very popular
+									during the Renaissance.</p>
+								<p class="testimonials__author">Dean Martin, CEO Acme Inc.</p>
+							</div>
+							<div class="testimonials__item swiper-slide">
+								<p class="testimonials__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Doloribus ex quidem maiores.</p>
+								<p class="testimonials__author">Jane Smith, CTO Beta Corp.</p>
+							</div>
+							<div class="testimonials__item swiper-slide">
+								<p class="testimonials__review">A fantastic experience working with this team! Highly recommend
+									their services.</p>
+								<p class="testimonials__author">Alex Johnson, Founder of Gamma Ltd.</p>
+							</div>
+							<div class="testimonials__item swiper-slide">
+								<p class="testimonials__review">The best service I've ever used. Professional and efficient!</p>
+								<p class="testimonials__author">Emily Davis, Manager at Delta Co.</p>
+							</div>
+							<div class="testimonials__item swiper-slide">
+								<p class="testimonials__review">Exceeded all expectations. Will definitely work with them again!
+								</p>
+								<p class="testimonials__author">Michael Brown, CEO of Epsilon Inc.</p>
+							</div>
+						</div>
+						<!-- Кнопки навигации -->
+						<!-- <button class="testimonials__carousel-btn testimonials__carousel-btn--prev swiper-button-prev"
+							aria-label="Previous testimonial"></button>
+						<button class="testimonials__carousel-btn testimonials__carousel-btn--next swiper-button-next"
+							aria-label="Next testimonial"></button> -->
+						<!-- Пагинация -->
+						<div class="testimonials__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__wrapper container">
+				<!-- Форма контактов -->
+				<section class="contact" id="contact">
+					<div class="contact__wrapper">
+						<h2 class="contact__title title-main">Contact us</h2>
+						<p class="contact__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex
+							quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda
+							velit excepturi porro ipsa tenetur.</p>
+						<form class="contact__form" action="#" method="post">
+							<div class="contact__form-inputs">
+								<div class="contact__form-field">
+									<label class="contact__form-label" for="name">Name <span
+											class="contact__required">*</span></label>
+									<input class="contact__form-input" type="text" id="name" name="name" required>
+								</div>
+								<div class="contact__form-field">
+									<label class="contact__form-label" for="email">Email address <span
+											class="contact__required">*</span></label>
+									<input class="contact__form-input" type="email" id="email" name="email" required>
+								</div>
+							</div>
+							<div class="contact__form-field">
+								<label class="contact__form-label" for="message">Message <span
+										class="contact__required">*</span></label>
+								<textarea class="contact__form-textarea" id="message" name="message" required></textarea>
+							</div>
+							<div class="contact__form-button">
+								<button class="contact__form-submit" type="submit">Send</button>
+							</div>
+						</form>
+					</div>
+				</section>
+
+				<!-- Социальные сети -->
+				<section class="footer__social social section-background--dark">
+					<div class="social__wrapper">
+						<a class="social__link" href="#"><img class="social__icon" src="img/icons/facebook.png"
+								alt="Facebook"></a>
+						<a class="social__link" href="#"><img class="social__icon" src="img/icons/twitter.png"
+								alt="Twitter"></a>
+						<a class="social__link" href="#"><img class="social__icon" src="img/icons/google.png"
+								alt="Google"></a>
+						<a class="social__link" href="#"><img class="social__icon" src="img/icons/linkedin.png"
+								alt="LinkedIn"></a>
+						<a class="social__link" href="#"><img class="social__icon" src="img/icons/dribbble.png"
+								alt="Dribbble"></a>
+					</div>
+				</section>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
