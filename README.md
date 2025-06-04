@@ -1,2 +1,2 @@
-BEM, Adaptive.
-JS: Carousel, Menu-Burger.
+HTML/CSS/JS.
+BEM, Screen Adaptive.
