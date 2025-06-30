@@ -338,7 +338,7 @@ footer {
 }
 
 .header__social-icon ul li {
-  border: 4px solid white;
+  border: 2px solid white;
   /* Параметры границы */
   border-radius: 50%;
   background-color: #fff;
