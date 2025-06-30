@@ -391,8 +391,8 @@ footer {
 
 .main-header__photo {
   display: block;
-  width: 173px;
-  height: 178px;
+/*   width: 173px; */
+/*   height: 178px; */
   background-color: #fffefe;
   position: absolute;
   top: 290px;
