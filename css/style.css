@@ -595,10 +595,9 @@ footer {
 }
 
 .footer__social-icon ul li {
-  border: 4px solid white;
-  /* Параметры границы */
+/*   border: 4px solid white;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #fff; */
   margin-left: 10px;
 }
 
