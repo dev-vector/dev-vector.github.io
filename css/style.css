@@ -233,7 +233,7 @@ footer {
 }
 
 .header__par-welcome {
-  font-size: 23px;
+  font-size: 19px;
   text-transform: uppercase;
   color: black;
   margin-top: 25px;
@@ -470,7 +470,7 @@ footer {
 .main-bottom__portfolio h1 {
   padding: 0 8px;
   display: inline-block;
-  font-size: 23px;
+  font-size: 28px;
   margin-bottom: 30px;
   margin-top: 10px;
 }
