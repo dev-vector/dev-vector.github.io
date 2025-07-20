@@ -92,33 +92,6 @@ h6 {
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
-/* cyrillic-ext */
-
-@font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ptsans/v16/jizaRExUiTo99u79D0-ExdGM.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueLTStd';
-  src: url("../fonts/HelveticaNeueLTStd-UltLt.otf");
-  src: local("☺"), url("../fonts/PFDinTextCondPro-Thin.woff") format("woff"), url("../fonts/PFDinTextCondPro-Thin.ttf") format("truetype"), url("../fonts/PFDinTextCondPro-Thin.svg") format("svg");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PFDinTextCondPro';
-  src: url("../fonts/PFDinTextCondPro-Medium.eot");
-  src: local("☺"), url("../fonts/pfdintextcondpro-medium.woff") format("woff"), url("../fonts/pfdintextcondpro-medium.ttf") format("truetype"), url("../fonts/pfdintextcondpro-medium.svg") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-
 body {
   font-family: "PTSans";
   background-color: #ffffff;
