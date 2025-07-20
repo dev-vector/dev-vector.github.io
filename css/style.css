@@ -173,7 +173,7 @@ footer {
 }
 
 .header {
-  font-family: "HelveticaNeueLTStd";
+  font-family: "Lora";
   font-weight: 500;
   width: 100%;
   top: 0;
@@ -341,7 +341,7 @@ footer {
 }
 
 .main-top {
-  font-family: "PFDinTextCondPro";
+  font-family: "Lora";
   font-weight: 500;
   color: #ffffff;
 }
@@ -527,7 +527,7 @@ footer {
 .footer {
   width: 100%;
   height: 100%;
-  font-family: "PFDinTextCondPro";
+  font-family: "Lora";
   margin-bottom: -1px;
   padding-bottom: 12px;
   display: -webkit-box;
