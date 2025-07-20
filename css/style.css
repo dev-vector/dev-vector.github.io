@@ -520,12 +520,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.footer__container {
-  display: flex;
-  justify-content: center;
-  flex-direction: raw;
+  text-align: center;
 }
 
 .footer__email {
