@@ -522,6 +522,11 @@ footer {
           justify-content: center;
 }
 
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
 .footer__email {
   margin-bottom: 30px;
 }
