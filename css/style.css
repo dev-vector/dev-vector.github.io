@@ -304,6 +304,7 @@ footer {
   justify-content: center;
   margin-top: 100px;
   margin-left: -160px;
+  z-index: 99;
 }
 
 .header__icon-item {
