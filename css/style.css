@@ -348,15 +348,15 @@ footer {
 /*   height: 178px; */
   background-color: #fffefe;
   position: absolute;
-  top: 290px;
+  top: 285px;
   border: 5px ridge #cecdcd;
   z-index: 2;
 }
 
 .main-header__photo img {
   margin: 4px;
-  width: 145px;
-  height: 148px;
+  width: 165px;
+  height: 165px;
 }
 
 .main-header__info {
