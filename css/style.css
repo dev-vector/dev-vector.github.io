@@ -525,6 +525,7 @@ footer {
 .footer__container {
   display: flex;
   justify-content: center;
+  flex-direction: raw;
 }
 
 .footer__email {
