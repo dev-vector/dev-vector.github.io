@@ -301,19 +301,15 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
-  color: white;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
   margin-left: -160px;
 }
 
 .header__icon-item {
-  font-size: 15px;
-  color: white;
-  border: 2px solid white;
-  /* Параметры границы */
-  border-radius: 50%;
-  background-color: red;
-  margin-left: 10px;
+  font-size: 30px;
+  color: #5e4646;
 }
 
 .web-fon {
