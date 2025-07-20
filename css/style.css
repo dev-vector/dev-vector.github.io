@@ -292,7 +292,7 @@ footer {
   height: 90px;
 }
 
-.header__social-icon {
+.header__social-icons {
   position: absolute;
   left: 100%;
 }
@@ -306,26 +306,14 @@ footer {
   margin-left: -160px;
 }
 
-.header__social-icon ul li {
+.header__icon-item {
+  font-size: 15px;
+  color: white;
   border: 2px solid white;
   /* Параметры границы */
   border-radius: 50%;
-  background-color: #fff;
+  background-color: red;
   margin-left: 10px;
-}
-
-.header__social-icon ul li p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 33px;
-  width: 33px;
 }
 
 .web-fon {
