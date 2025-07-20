@@ -1283,3 +1283,18 @@ footer {
     margin-left: -20px;
   }
 }
+.social-icons {
+            margin: 30px 0px;
+        }
+
+		  .social-icons a {
+            color: #ffffff; 
+            font-size: 30px; 
+            margin: 0 15px; 
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+
+        .social-icons a:hover {
+            color: #f5e6ca; 
+        }
