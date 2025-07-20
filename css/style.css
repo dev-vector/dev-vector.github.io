@@ -99,11 +99,6 @@ body {
   font-size: 14px;
 }
 
-a {
-  cursor: pointer;
-  color: #fff;
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;
